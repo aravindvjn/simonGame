@@ -13,7 +13,6 @@ body {
 .container {
   display: block;
   width: 50%;
-  margin: auto;
 
 }
 
@@ -25,7 +24,13 @@ body {
   border: 10px solid black;
   border-radius: 20%;
 }
-
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
 .game-over {
   background-color: red;
   opacity: 0.8;
@@ -53,4 +58,30 @@ body {
 }
 .selectedAn{
   border: 10px solid rgba(255, 255, 255, 0.641);
+}
+@media (max-width:1150px){
+  .container {
+    width: 70%;
+  }
+  
+  .btn {
+    margin: 20px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 20%;
+  }
+  #level-title {
+    font-size: 2rem;
+    margin:  5%;
+  }
+  .flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
 }
