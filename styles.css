@@ -5,7 +5,7 @@ body {
 
 #level-title {
   font-family: 'Press Start 2P', cursive;
-  font-size: 3rem;
+  font-size: 2rem;
   margin:  5%;
   color: #FEF2BF;
 }
@@ -51,7 +51,20 @@ body {
 .yellow {
   background-color: yellow;
 }
+p{
+  font-family: 'Press Start 2P', cursive;
+  color: #FEF2BF;
+  font-size: 30px;
+  margin-bottom: -30px;
 
+}
+p span{
+  font-family: 'Press Start 2P', cursive;
+  color: #FEF2BF;
+  font-size: 15px;
+  margin-bottom: -30px;
+
+}
 .pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
@@ -73,7 +86,7 @@ body {
     border-radius: 20%;
   }
   #level-title {
-    font-size: 2rem;
+    font-size: 1.4rem;
     margin:  5%;
   }
   .flex{

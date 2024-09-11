@@ -19,9 +19,6 @@ const startListener= ()=>{
     }, 200);
   }
 }
-$("#level-title").click(()=>{
-  startListener();
-});
 
 $(".btn").click((event) => {
   yourArray.push(event.target.id);
